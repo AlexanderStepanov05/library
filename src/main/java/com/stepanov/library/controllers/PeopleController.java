@@ -2,6 +2,7 @@ package com.stepanov.library.controllers;
 
 import com.stepanov.library.dao.PersonDAO;
 import com.stepanov.library.models.Person;
+import com.stepanov.library.util.PersonValidator;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
